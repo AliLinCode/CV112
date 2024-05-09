@@ -9,7 +9,7 @@ WORKDIR /app
 COPY . /app
 
 # Вказуємо, що контейнер буде слухати порт 5000
-EXPOSE 5000
+EXPOSE 5050
 
 # Команда для запуску сервера Flask
 CMD ["python", "app.py"]
